@@ -1,0 +1,217 @@
+@font-face {
+  font-family: 'Economica', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Economica:700');
+}
+
+@font-face {
+  font-family: 'Bangers', cursive;
+  src:url('https://fonts.googleapis.com/css?family=Bangers');
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+    background-image: url("https://images-assets.nasa.gov/image/PIA05546/PIA05546~thumb.jpg");
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #55FFFF;
+  font-size: 30px;
+}
+
+.header-logo {
+  font-size: 40px;
+  float: left;
+  font-family: 'Bangers', cursive;
+  padding: 20px;
+  color: white;
+}
+
+.header-logo:hover {
+  cursor: pointer;
+  font-size: 45px;
+  color: #55FFFF;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  }
+
+.li1 {
+  float: right;
+  color: black;
+  list-style: none;
+  font-size: 25px;
+  padding: 30px;
+  margin-right: 20px;
+  color: white;
+}
+
+.container {
+  height: 1000px;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.heading {
+  color: white;
+  font-family: 'Economica', sans-serif;
+  padding-top: 180px;
+  font-size: 70px;
+  margin-bottom: 50px;
+}
+
+.galaxy h2 {
+  color: white;
+  font-family: 'Economica', sans-serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.galaxy-icon {
+  position: relative;
+}
+
+.the-galaxy {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: white;
+  display: none;
+  font-size: 50px;
+  font-family:  "M PLUS Rounded 1c";
+}
+
+.galaxy-description {
+  color: white;
+  display: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+
+}
+
+.galaxy {
+  float:left;
+  width: 33.3%;
+}
+
+.galaxy img {
+  opacity: 0.8;
+  border-radius: 50%;
+  height: 350px;
+
+}
+
+.number {
+  font-size: 40px;
+}
+
+.number2 {
+  color: red;
+  font-size: 40px
+}
+
+.number3 {
+  color: green;
+  font-size: 40px;
+}
+
+.slide-wrapper {
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding-top: 200px;
+}
+
+.slide-title  {
+  font-size: 105px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.slide-btn {
+  display: inline-block;
+  color: #3399FF;
+  background-color: white;
+  width: 60px;
+  padding: 6px 0;
+  margin: 20px 15px;
+  border-radius: 20%;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.slide-btn:hover {
+  color: white;
+  background-color: #3399FF;
+}
+
+.slide {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.faq-wrapper {
+    margin: 0 auto;
+    height: 1200px;
+}
+
+.heading h2 {
+  text-align: center;
+}
+
+.faq  {
+  color: white;
+  font-size: 35px;
+}
+
+.faq-list {
+  position: relative;
+  cursor:pointer;
+  border-bottom:1px solid white;
+  list-style: none;
+  text-align: left;
+  margin-left: 300px;
+  margin-right: 200px;
+  margin-bottom: 70px;
+}
+
+.answer {
+  display: none;
+  margin-top: 40px;
+}
+
+.question {
+  position: relative;
+  margin-right: 200px;
+}
+
+.faq-list span {
+  position:absolute;
+  right: 0;
+  font-size:35px;
+  top: 0px;
+}
