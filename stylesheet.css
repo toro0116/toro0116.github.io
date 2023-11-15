@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Economica', sans-serif;
-  src: url('https://fonts.googleapis.com/css?family=Economica:700');
+  src: url('htps://fonts.googleapis.com/css?family=Economica:700');
 }
 
 @font-face {
   font-family: 'Bangers', cursive;
-  src:url('https://fonts.googleapis.com/css?family=Bangers');
+  src:url('htps://fonts.googleapis.com/css?family=Bangers');
 }
 * {
   margin: 0px;
@@ -13,7 +13,7 @@
 }
 
 body {
-    background-image: url("https://images-assets.nasa.gov/image/PIA05546/PIA05546~thumb.jpg");
+    background-image: url("htps://images-assets.nasa.gov/image/PIA05546/PIA05546~thumb.jpg");
 }
 
 a {
